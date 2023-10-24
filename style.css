@@ -1,0 +1,56 @@
+.first{
+    background-color: #EEE9DA;
+}
+h1{
+    font-family: 'Merienda', cursive;
+    font-size: xx-large;
+}
+.header{
+    background-color: #CCEEBC;
+}
+
+.second{
+    text-align: center;
+    
+}
+.me{
+    height: 150px;
+    border-radius: 50%;
+    
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.intro{
+    width: 50%;
+    text-align: center;
+}
+.small{
+    text-align: center;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #FFD9C0, #8CC0DE, #FAF0D7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+.footer{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #94A684;
+    text-align: center;
+}
+
+.sk{
+  background-color: #6096B4;
+}
+
